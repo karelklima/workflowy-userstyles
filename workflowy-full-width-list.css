@@ -1,0 +1,26 @@
+/*
+ * WorkFlowy.com full width list userstyle
+ *
+ * Author: Karel Klima <karelklima@gmail.com>
+ */
+
+@-moz-document domain("workflowy.com") {
+
+    body {
+        background: #FFF !important;
+    }
+    #pageContainer {
+        margin-top: 24px;
+    }
+    .page {
+        max-width: 100% !important;
+        border: none !important;
+        margin-bottom: 0 !important;
+        padding: 10px 60px !important;
+    }
+    /* Remove the "Get more space" top left link so it does not interfere */
+    .getMoreSpaceButton {
+        display: none;
+    }
+
+}
